@@ -11,7 +11,7 @@ It allows users to add and view expenses with input validation and automatic dat
 - View all expenses
 - Input validation (amount, category, date format)
 - Automatic database and table creation
-- Persistent storage using SQLite
+- storage using SQLite
 
 ---
 
@@ -24,6 +24,18 @@ It allows users to add and view expenses with input validation and automatic dat
 ---
 
 ## 📂 Project Structure
+
+```
+TallyRoom/
+│
+├── main.py
+├── expense.py
+├── db.py
+├── my_validators.py
+├── requirements.txt
+└── README.md
+```
+
 
 
 #  Future Improvements
